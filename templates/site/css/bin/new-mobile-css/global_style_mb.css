@@ -1,0 +1,371 @@
+@font-face {
+    font-family: 'font-mai-bold';
+    src: url('../../fonts/font-mai/UTM-CenturBold.ttf');
+}
+@font-face {
+    font-family: 'font-mai';
+    src: url('../../fonts/font-mai/UTM-Centur.ttf');
+}
+@font-face {
+    font-family: 'arial';
+    src: url('../../fonts/font-arial/arial.ttf');
+}
+
+.ul{list-style: none;margin: 0;padding: 0;}
+.ul li{margin: 0;padding: 0;}
+
+.clearfix {
+        zoom: 1;
+}
+.clearfix:after {
+        clear: both;
+        content: ".";
+        display: block;
+        height: 0;
+        line-height: 0;
+        visibility: hidden;
+}
+*{ font-family: arial; }
+
+.imageButton{ width: 25px;height: 26px;background: url('../../images/icon-laso/angle-down.png') no-repeat;background-size: 100% 100%; }
+.imageButtonClose{ background: url('../../images/icon-laso/angle-up.png') no-repeat !important;background-size: 100% 100% !important; }
+.imageButtonOpen{ background: url('../../images/icon-laso/angle-down.png') no-repeat !important;background-size: 100% 100% !important; }
+.contentMini{ max-height: 200px;overflow: hidden;border-bottom: 2px solid #cccccc30; }
+.title_icon_show{ background: url('../../images/icon-laso/angle-down_2.png') !important;background-size: 100% 100% !important; }
+.title_icon_close{ background: url('../../images/icon-laso/angle-right-.png') !important;background-size: 100% 100% !important;  }
+.maxHeight1500{ max-height: 1500px !important; }
+
+/** Xem ngay trong thang allpage mobile **/
+.list_thang_tot_mb{  }
+.list_thang_tot_mb .box_item_thang_mb{ padding: 12px;background: #fdefa9;margin-bottom: 12px; }
+.list_thang_tot_mb .box_item_thang_mb .box_duong_am{ padding: 9px;background: #ffd510;float: left;width: 48.5%;text-align: center;font-weight: bold; }
+.list_thang_tot_mb .box_item_thang_mb .box_duong_am .textTop{ font-family: 'font-mai-bold';font-size: 14px;margin: 0px; }
+.list_thang_tot_mb .box_item_thang_mb .box_duong_am .textNumber{ font-size: 50px;margin: 0px;font-family: 'font-mai-bold'; }
+.list_thang_tot_mb .box_item_thang_mb .box_duong_am .textMonth{ font-size: 13px;margin: 0px;font-family: 'font-mai-bold'; }
+.list_thang_tot_mb .box_item_thang_mb .box_duong{ float: left; }
+.list_thang_tot_mb .box_item_thang_mb .box_am{ float: right; }
+.list_thang_tot_mb .box_ngay_detail{ font-size: 13px; }
+.list_thang_tot_mb .box_ngay_detail .boxBtnxem{ text-align: center;padding-top: 15px; }
+.list_thang_tot_mb .box_ngay_detail .btnXemchitietMb{ padding: 6px 10px;background: url('../../images/icon/Rectangle-3-copy-6.png');color: #fff;font-size: 13px;background-size: 100%;border-radius: 11px;text-transform: uppercase;font-family: 'font-mai-bold';margin-top: 10px; }
+.list_thang_tot_mb .box_ngay_detail .type_ngay{ font-weight: bold;text-align: center;font-size: 13px;padding-top: 8px;text-transform: uppercase;color: #000; }
+.list_thang_tot_mb .box_ngay_detail p{ margin-bottom: 0px; }
+.list_thang_tot_mb{  }
+.list_thang_tot_mb{  }
+.list_thang_tot_mb{  }
+
+.list_box_gioithieu_thang{  }
+.list_box_gioithieu_thang p{ background: url('../../images/icon/3_xemngaytotxau_theothang.png');height: 50px;width: 100%;line-height: 50px;color: #fceb9c;text-align: center;font-size: 14px;font-family: 'font-mai-bold'; }
+.list_box_gioithieu_thang p a{ color: #fff;color: #fceb9c;font-size: 15px;font-family: 'font-mai-bold'; }
+.totalFastMb{ background: url('../../images/icon/5.png');background-size: 100%;height: 50px;width: 100%;line-height: 50px;color: #fff;text-align: center;font-size: 18px;font-family: 'font-mai-bold'; }
+.viewmore{ text-align: center;color: #9f8717;font-family: 'font-mai-bold';margin: 0px; }
+.viewmore label{ border-left: 0px; }
+
+#pageTextAuto{  }
+#pageTextAuto h1,#pageTextAuto h2, #pageTextAuto h3, #pageTextAuto h4, #pageTextAuto h5, #pageTextAuto h6{ margin: 0px; }
+#pageTextAuto img{ border: none;height: auto; }
+#pageTextAuto .title_lvn{ background: #ffd510;position: relative;height: 25px;line-height: 25px;padding-left: 40px;text-transform: uppercase;font-weight: bold;border-radius: 25px;font-size: 13px; }
+#pageTextAuto .title_lvn:before{ content: ".";display: block;background: url('../../images/icon/Forma-1.png');position: absolute;top: 4px;left: 12px;width: 15px;height: 15px; }
+.pageKqMb{  }
+.pageKqMb .dinh_dang_font{ /*font-family: 'font-mai';*/font-family:verdana,geneva,sans-serif;line-height: 25px;padding: 0 10px; }
+.pageKqMb .dinh_dang_font p{ margin: 0px; }
+.pageKqMb{  }
+.pageKqMb{  }
+.pageKqMb{  }
+.pageKqMb{  }
+.pageKqMb{  }
+.pageKqMb{  }
+.box-kq-mobile{ padding: 10px 0px; }
+
+.info_right_tongquat{ background: #af3927;color: #fff; }
+.box-info-mobile{  }
+.box-info-mobile .topKq{ width: 100%;background: #9d1c20;padding: 10px 9px;color: #fceb9c;font-size: 13px;font-family: arial;font-weight: bold; }
+.box-info-mobile .tableVCMb{ background: #fceb9c;color: #000; }
+.box-info-mobile .tableVCMb tr{ border-color: #fff; }
+.box-info-mobile .tableVCMb tr th{ font-size: 13px;font-weight: bold;color: #9d1c20;font-family: arial;border-color: #fff;text-transform: uppercase; }
+.box-info-mobile .tableVCMb tr td{ border-color: #fff; }
+.box-info-mobile .tableVCMb tr td:nth-child(1){ font-weight: bold;color: #000;font-family: arial; }
+.box-info-mobile .tableVCMb tr td:nth-child(3), .box-info-mobile .tableVCMb tr th:nth-child(3){ background: #fae37b;text-align: center; }
+.box-info-mobile .tableVCMb tr td .khachop{ background: #9d1c20;color: #fff;font-family: arial;font-size: 13px;font-weight: bold;text-align: center; }
+.box-info-mobile .tableVCMb tr td #hop{  }
+.box-info-mobile .tableVCMb tr td #binh-hoa{ background: #004186; }
+.box-info-mobile .tableVCMb tr td #khac{ background: #000; }
+.boxListArtVCMb{  }
+.boxListArtVCMb a{ font-size: 12px;color: #000;font-weight: bold; }
+.box-info-mobile{  }
+.box-info-mobile{  }
+.box-info-mobile{  }
+.title-new-mobile{ padding: 0px;height: 55px;line-height: 55px;font-size: 12px;margin-bottom: 9px;font-family: 'font-mai-bold'; }
+
+.tableVCMb>thead>tr>th, .tableVCMb>tbody>tr>th, .tableVCMb>tfoot>tr>th, .tableVCMb>thead>tr>td, .tableVCMb>tbody>tr>td, .tableVCMb>tfoot>tr>td{ padding: 5px 4px; }
+.boxNamNuXao{ padding: 16px 10px;background: #9d1c20; }
+.boxNamNuXao .miniBox{ width: 50%;float: left; }
+.boxNamNuXao .miniBox a{ padding: 11px 20px;background: #fceb9c;font-family: 'font-mai-bold';font-size: 13px;color: #9d1c20;border-radius: 32px;padding: 7px 20px; }
+.boxNamNuXao .boxLeft{ float: left;text-align: left; }
+.boxNamNuXao .boxLeft a{  }
+.boxNamNuXao .boxRight{ float: left;text-align: right; }
+.boxNamNuXao .boxRight a{  }
+.bannerTopMb{  }
+.bannerTopMb img{ max-width: 100%;width: 100%; }
+.banglichthang_ngay{ float: none; }
+.box-alarm .title-alarm{ color: #ffd510; }
+.color_yellow{ color: #ffd510; }
+.box-mobile img{ height: 100px; }
+.btn_nhaynhay{ padding: 0px 12px; }
+.box-alarm img{ height: 21px; }
+
+/** Lich van nien **/
+.pageKqLichngayMb{  }
+.pageKqLichngayMb .tableCalendarNiceMb{  }
+.pageKqLichngayMb .tableCalendarNiceMb .topTCNMb{ background: url('../../images/icon/top-lich-van-nien.jpg') no-repeat;background-size: 100%;height: 270px;padding-top: 20px; }
+.pageKqLichngayMb .tableCalendarNiceMb .topTCNMb .textAmlichBot{ text-align: center;font-size: 13px;color: #c69b21;font-weight: bold;padding-top: 5px;font-family: 'font-mai-bold'; }
+.pageKqLichngayMb .tableCalendarNiceMb .topTCNMb .textThangNam{ font-size: 13px;font-family: 'font-mai-bold';font-weight: bold;color: #c69b21;text-align: center;margin-bottom: 0px;margin-bottom: 2px; }
+.pageKqLichngayMb .tableCalendarNiceMb .topTCNMb .dayCenter{ height: 180px;line-height: 180px;text-align: center;position: relative; }
+.pageKqLichngayMb .tableCalendarNiceMb .topTCNMb .textDC{ margin-bottom: 0px;height: 180px;line-height: 180px; }
+.pageKqLichngayMb .tableCalendarNiceMb .topTCNMb .textDC label{ font-size: 50px;color: #9d1c20;font-weight: bold;margin-left: -13px;font-family: 'font-mai-bold';margin-bottom: 0px; }
+.pageKqLichngayMb .tableCalendarNiceMb .topTCNMb .btnDC{ position: absolute;height: 24px;width: 24px;top: 48%; }
+.pageKqLichngayMb .tableCalendarNiceMb .topTCNMb .btnLeftDC{ left: 17%;background:url('../../images/icon/left.png');background-size: 100% 100%; }
+.pageKqLichngayMb .tableCalendarNiceMb .topTCNMb .btnRightDC{ right: 20%;background:url('../../images/icon/right.png');background-size: 100% 100%; }
+
+.pageKqLichngayMb .tableCalendarNiceMb .maxwidthImage{ background: url('../../images/icon/bg_hoanggia_mai_talk.png');height: 6px;width: 100%; }
+.pageKqLichngayMb .tableCalendarNiceMb .maxwidthImage img{  }
+.pageKqLichngayMb .tableCalendarNiceMb .betweenTCNMb{ padding: 4px 9px;background: #9d1112 url('../../images/icon/background-lich.png') repeat-x;background-size: 100% 100%;margin-bottom: 12px; }
+.pageKqLichngayMb .tableCalendarNiceMb .textThu{ text-align: center;margin-bottom: 0px;height: 31px;background: url('../../images/icon/Rectangle-15.png');width: 100%;line-height: 31px;font-family: 'font-mai-bold';background-size: 100%; }
+.pageKqLichngayMb .tableCalendarNiceMb .imageRoundCenter{ margin-bottom: 0px; }
+.pageKqLichngayMb .tableCalendarNiceMb .imageRoundCenter img{ height: 26px;border: none; }
+.pageKqLichngayMb .tableCalendarNiceMb .infoDay{ padding: 13px 16px;background: #e4b04a;margin-bottom: 11px; }
+.pageKqLichngayMb .tableCalendarNiceMb .infoDay p{ margin: 0px; }
+.pageKqLichngayMb .tableCalendarNiceMb .titleID{ font-size: 15px;font-family: 'font-mai-bold';text-align: center;border-bottom: 1px solid #000;padding-bottom: 8px; }
+.pageKqLichngayMb .tableCalendarNiceMb .ulID{  }
+.pageKqLichngayMb .tableCalendarNiceMb .ulID li{ width: 50%;float: left; }
+.pageKqLichngayMb .tableCalendarNiceMb .ulID li p{  }
+
+.pageKqLichngayMb .tableCalendarNiceMb .bottomTCNMb{  }
+.pageKqLichngayMb .tableCalendarNiceMb .bottomTCNMb ul{  }
+.pageKqLichngayMb .tableCalendarNiceMb .bottomTCNMb ul li{ display: inline;padding-right: 5px; }
+.pageKqLichngayMb .tableCalendarNiceMb .bottomTCNMb ul li a{ padding: 6px 10px;background: #b11c1f;color: #e4b04a;font-family: 'font-mai-bold';font-size: 12px; }
+.pageKqLichngayMb .tableCalendarNiceMb .bottomTCNMb ul li a:hover{ background: #e4b04a;color: #000; }
+
+.pageKqLichngayMb .tableCalendarAfterMb{ box-shadow: 0px 0px 11px #ccc;margin: 0px -10px; }
+.pageKqLichngayMb .tableCalendarAfterMb .topTCAMb{ position: relative; }
+.pageKqLichngayMb .tableCalendarAfterMb .topTCAMb .thang{ color: #b31e20;font-weight: bold;font-size: 13px;text-align: left;padding-left: 10px; }
+.pageKqLichngayMb .tableCalendarAfterMb .topTCAMb .nam{ font-size: 11px;font-weight: bold;color: #7d7d7d;text-align: right;position: absolute;right: 55px;bottom: 0px; }
+.pageKqLichngayMb .tableCalendarAfterMb .topTCAMb .truocsau{ font-size: 11px;font-weight: bold;color: #7d7d7d;text-align: right;position: absolute;right: 10px;bottom: 0px; }
+.pageKqLichngayMb .tableCalendarAfterMb .bodyTCAMb{  }
+.pageKqLichngayMb .tableCalendarAfterMb .bodyTCAMb .banglichthang_tt{  }
+.pageKqLichngayMb .tableCalendarAfterMb .bodyTCAMb .banglichthang_tt span{ background: #eaeaea;color: #7d7d7d;font-weight: bold;font-size: 10px;height: 18px;line-height: 18px;border-bottom: 1px solid #ffffff; }
+.pageKqLichngayMb .tableCalendarAfterMb .bodyTCAMb .banglichthang_tt span:nth-child(1){ background: #7d7d7d;color: #fff; }
+.pageKqLichngayMb .tableCalendarAfterMb .bodyTCAMb .banglichthang_tt span:nth-child(7){ background: #7d7d7d;color: #fff; }
+.pageKqLichngayMb .tableCalendarAfterMb .bodyTCAMb .banglichthang_ct div{ background: #f2f2f2;border-left: 1px solid #ffffff;border-bottom: 1px solid #ffffff; }
+.pageKqLichngayMb .tableCalendarAfterMb .bodyTCAMb .banglichthang_ct div:hover{ background: #e6e6e6;border-bottom: 2px solid #e4b04a; }
+.pageKqLichngayMb .tableCalendarAfterMb .bodyTCAMb .banglichthang_ct div.dayok{ background: #e6e6e6 !important;/*border-bottom: 2px solid #e4b04a;*/ }
+.pageKqLichngayMb .tableCalendarAfterMb .bodyTCAMb .banglichthang_ct div.dayok .sp_nd{ color: #e87018; }
+.pageKqLichngayMb .tableCalendarAfterMb .bodyTCAMb div.lt_item a{ color: #000; }
+.pageKqLichngayMb .tableCalendarAfterMb .bodyTCAMb .banglichthang_ngay{ height: 250px; }
+.pageKqLichngayMb .tableCalendarAfterMb .bodyTCAMb .lt_item ul{ background: url('../../images/icon/Rectangle-22.jpg');height: 125px;border-color: #fff;border-radius: 5px; }
+.pageKqLichngayMb .tableCalendarAfterMb .bodyTCAMb .text-yellow{ display: none; }
+.pageKqLichngayMb .tableCalendarAfterMb .bodyTCAMb .text-black{ display: none; }
+.pageKqLichngayMb .tableCalendarAfterMb .bodyTCAMb #text-yellow{ border-bottom: 2px solid #e4b04a; }
+.pageKqLichngayMb .tableCalendarAfterMb .bodyTCAMb #text-black{ border-bottom: 2px solid #000; }
+
+.pageKqLichngayMb .tableCalendarAfterMb .footerTCAMb{ padding: 5px 10px; }
+.pageKqLichngayMb .tableCalendarAfterMb .footerTCAMb ul{ background: #000; }
+.pageKqLichngayMb .tableCalendarAfterMb .footerTCAMb ul li{ width: 50%;float: left;line-height: 25px; }
+.pageKqLichngayMb .tableCalendarAfterMb .footerTCAMb .hoangdao{ margin: 0px;color: #e4b04a;font-weight: bold;font-size: 12px;padding-left: 5px; }
+.pageKqLichngayMb .tableCalendarAfterMb .footerTCAMb .hacdao{ margin: 0px;color: #b11c1f;font-weight: bold;font-size: 12px;padding-left: 5px; }
+
+.pageKqLichngayMb .listLichVannienMb{  }
+.pageKqLichngayMb .listLichVannienMb ul{  }
+.pageKqLichngayMb .listLichVannienMb ul li{ text-align: center;margin-bottom: 30px; }
+.pageKqLichngayMb .listLichVannienMb ul li:last-child{ margin-bottom: 5px; }
+.pageKqLichngayMb .listLichVannienMb ul li a{ padding: 10px 40px;background: #9d1c20;border-radius: 25px;font-size: 13px;color: #fff;font-weight: bold; }
+.pageKqLichngayMb .listLichVannienTheoNamMb{  }
+.pageKqLichngayMb .listLichVannienTheoNamMb ul{  }
+.pageKqLichngayMb .listLichVannienTheoNamMb ul li{ width: 33%;float: left;margin-bottom: 10px; }
+.pageKqLichngayMb .listLichVannienTheoNamMb ul li a{ padding: 6px 10px;border: 1px solid #b11c1f;border-radius: 25px;font-size: 13px;float: left;color: #000;font-weight: bold; }
+/** End **/
+#bbhn_ket_qua_cuoi_cung{ margin: 15px 0px;background: url('../../images/newmobile/bgalarm.jpg') repeat;border-radius: 15px;padding: 10px 10px;color: #fff;line-height: 25px; }
+.fixedTop{ position: fixed;top: 0px;width: 100%;z-index: 5; }
+.fixedPos{ position: fixed;z-index: 500; }
+
+/*edit a.tuyen style*/
+.close-menu-search{ top: 3px; }
+.close-menu-search span{ color: #fff;padding: 3px 7px;border: 1px solid #ccc;border-radius: 14px;background: #a0a0a0;opacity: 0.8; }
+.title-new-mobile{ font-size: 13px; }
+footer .title-footer-new-mobile .title_p{ margin-bottom: 0px; }
+footer .title-footer-new-mobile .title_p label{ margin-bottom: 0px; }
+.footerButtonCl{ padding-bottom: 5px; }
+
+.miniboxFooter ul{  }
+.miniboxFooter ul li{ border: solid 1px #5d4f05; }
+.miniboxFooter ul li a{ font-size: 11px;float: left;padding-left: 6px; }
+.text-foot-newmobile p{ margin-bottom: 0px; }
+.menu-bottom{ bottom: 120px; }
+.menu-bottom img{ width: 48px; }
+#backtotop-mobile img{ width: 48px; }
+.form-tool-mobile input{ color: #fff; }
+.form-tool-mobile button{ font-family: 'arial'; }
+.box-kq-mobile .title-kq-mobile{ font-family: 'font-mai-bold';color: #9d1c20;text-shadow: -1px 0 #d5cda6, 0 1px #d5cda6, 1px 0 #d5cda6, 0 -1px #d5cda6; }
+.box-info-mobile .info-right p{ margin-bottom: 0px; }
+.male{ top: 21px;font-family: 'font-mai-bold';left: -31px; }
+.box-ntbt, .box-gio-hoangdao, .box-gio-hacdao, .box-ngayky, .box-nguhanh, .box-btbkn, .box-kmld, .box-tnkt, .box-nhtt, .box-huongxuathanh, .box-lythuanphong{ padding: 4px 10px; }
+.title-xemngay{ font-family: 'font-mai-bold';padding-bottom: 7px; }
+.title-xemngay span{ font-family: 'font-mai-bold'; }
+.ul_newmoble1 .lv1{ padding: 0px 23px; }
+.ul2{  }
+.ul2 .lv2{  }
+.ul2 .lv2>a{ text-transform: uppercase; }
+.menu-newmobile .ul_newmoble1 .lv1 .ul2{ box-shadow: 4px 5px 5px #ccc;height: 484px;overflow: scroll; }
+.open_mb{ display: block;top: 0;bottom: 0;position: fixed !important;display: block; }
+.ul_newmoble1 .lv1 span{ font-size: 13px; }
+.headingTopUpdate .titleUpd{
+    padding: 0px 50px;
+    font-size: 13px;
+    line-height: 21px;
+    width: 100%;
+}
+.headingTopUpdate .titleUpd:before{
+    top: 5px;
+}
+.headingTopUpdate .titleUpd:after{
+    top: 5px;
+}
+.headingTopUpdate .topNgay label{
+    font-size: 13px;
+    line-height: 20px;
+}
+.cpnFormUpdate .flex-container{
+    flex-wrap: wrap;
+    justify-content:center;
+    text-align: center;
+    width: 60%;
+    margin: 0px auto;
+}
+.cpnFormUpdate .flex-item{ width: 100%; }
+.cpnFormUpdate .labelItem{
+    border: none;
+    font-size: 14px;
+    font-family: Timenewroman;
+}
+.cpnFormUpdate input{
+    margin-bottom: 10px;
+}
+.list_thang_tot_mb_thangxau{
+
+}
+.list_thang_tot_mb_thangxau .box_item_thang_mb .box_duong_am{
+    background: #BAB4B6 !important;
+}
+.list_thang_tot_mb .box_ngay_detail .type_ngay{
+    color: #932F17 !important;
+}
+.list_thang_tot_mb_thangxau .box_ngay_detail .type_ngay{
+    color: black !important;
+}
+.list_thang_tot_mb .hourok{
+    font-weight: bold;
+    margin-top: 5px;
+}
+.list_thang_tot_mb a{
+    font-weight: bold;
+    color: #195796;
+}
+.list_thang_tot_mb .canchi{
+    font-weight: bold;
+    color: #ae1417;
+}
+.list_thang_tot_mb_thangxau .box_ngay_detail .btnXemchitietMb{
+    background: url(../../images/bgbtnxemngay.jpg);
+}
+.headingTopUpdate .titleUpd{ background: url('../../images/bg-title-top-xem-ngay.jpg'); }
+/*end*/
+@media only screen and (max-width: 480px){
+    /*.ul_newmoble1 .lv1{ padding: 0px 23px; }*/
+    .ul_newmoble1 .lv1{ padding: 0px 10px; }
+    .adsHomeXuyentrang{ margin-top: 0px; }
+}
+
+@media only screen and (max-width: 435px) {
+    /*.ul_newmoble1 .lv1 { padding: 0px 17px; }*/
+    .ul_newmoble1 .lv1{ padding: 0px 10px; }
+}
+
+/*Iphone(480 x 640)*/
+@media only screen and (max-width: 411px) {
+    /*.pageKqLichngayMb .tableCalendarNiceMb .topTCNMb{ height: 227px; }
+    .pageKqLichngayMb .tableCalendarNiceMb .topTCNMb .dayCenter{ height: 147px;line-height: 147px; }
+    .pageKqLichngayMb .tableCalendarNiceMb .topTCNMb .textDC{ height: 150px;line-height: 150px; }
+    .pageKqLichngayMb .tableCalendarNiceMb .bottomTCNMb ul li{ padding-right: 38px; }
+    .pageKqLichngayMb .tableCalendarNiceMb .topTCNMb .textDC label{ font-size: 53px; }*/
+
+    .pageKqLichngayMb .tableCalendarNiceMb .topTCNMb{ height: 228px; }
+    .pageKqLichngayMb .tableCalendarNiceMb .topTCNMb .dayCenter{ height: 148px; }
+    .pageKqLichngayMb .tableCalendarNiceMb .topTCNMb .textDC{ line-height: 153px; }
+    .pageKqLichngayMb .tableCalendarNiceMb .topTCNMb .textDC label{ font-size: 55px; }
+    .ul_newmoble1 .lv1{ padding: 0px 10px; }
+}
+
+/*Iphone(480 x 640)*/
+@media only screen and (max-width: 400px){
+    /*.ul_newmoble1 .lv1 { padding: 0px 15px; }*/
+    .ul_newmoble1 .lv1{ padding: 0px 5px; }
+}
+
+@media only screen and (max-width: 375px){
+    .ul_newmoble1 .lv1{ padding: 0px 10px; }
+    /*.pageKqLichngayMb .tableCalendarNiceMb .topTCNMb{ height: 204px; }
+    .pageKqLichngayMb .tableCalendarNiceMb .topTCNMb .textDC{ height: 108px;line-height: 100px; }
+    .pageKqLichngayMb .tableCalendarNiceMb .topTCNMb .btnDC{ top: 30%; }
+    .pageKqLichngayMb .tableCalendarNiceMb .topTCNMb .dayCenter{ height: 124px;line-height: 138px; }
+    .pageKqLichngayMb .tableCalendarNiceMb .bottomTCNMb ul li{ padding-right: 15px; }*/
+
+    .pageKqLichngayMb .tableCalendarNiceMb .topTCNMb{ height: 205px; }
+    .pageKqLichngayMb .tableCalendarNiceMb .topTCNMb .dayCenter{ height: 126px; }
+    .pageKqLichngayMb .tableCalendarNiceMb .topTCNMb .textDC{ line-height: 127px; }
+    .pageKqLichngayMb .tableCalendarNiceMb .topTCNMb .textDC label{ font-size: 55px; }
+}
+@media only screen and (max-width: 360px) {
+    .ul_newmoble1 .lv1{ padding: 0px 10px; }
+    /*.pageKqLichngayMb .tableCalendarNiceMb .bottomTCNMb ul li{ padding-right: 5px; }
+    .pageKqLichngayMb .tableCalendarNiceMb .topTCNMb{ height: 196px; }
+    .pageKqLichngayMb .tableCalendarNiceMb .topTCNMb .dayCenter{ height: 121px; }
+    .pageKqLichngayMb .tableCalendarNiceMb .topTCNMb .btnDC{ top: 39%; }*/
+
+    .pageKqLichngayMb .tableCalendarNiceMb .topTCNMb{ height: 196px; }
+    .pageKqLichngayMb .tableCalendarNiceMb .topTCNMb .dayCenter{ height: 126px; }
+    .pageKqLichngayMb .tableCalendarNiceMb .topTCNMb .btnDC{ top: 37%; }
+    .pageKqLichngayMb .tableCalendarNiceMb .topTCNMb .textDC{ line-height: 118px; }
+    .pageKqLichngayMb .tableCalendarNiceMb .topTCNMb .textDC label{ font-size: 55px; }
+}
+@media only screen and (max-width: 338px) {
+    /*.pageKqLichngayMb .tableCalendarNiceMb .topTCNMb{ height: 181px; }
+    .pageKqLichngayMb .tableCalendarNiceMb .topTCNMb .dayCenter{ height: 109px; }
+    .pageKqLichngayMb .tableCalendarNiceMb .topTCNMb .btnDC{ top: 39%; }*/
+
+    .pageKqLichngayMb .tableCalendarNiceMb .topTCNMb{ height: 182px; }
+    .pageKqLichngayMb .tableCalendarNiceMb .topTCNMb .dayCenter{ height: 106px; }
+    .pageKqLichngayMb .tableCalendarNiceMb .topTCNMb .btnDC{ top: 37%; }
+    .pageKqLichngayMb .tableCalendarNiceMb .topTCNMb .textDC{ line-height: 96px; }
+    .pageKqLichngayMb .tableCalendarNiceMb .topTCNMb .textDC label{ font-size: 51px; }
+    .ul_newmoble1 .lv1{ padding: 0px 5px; }
+}
+@media only screen and (max-width: 330px) {
+    .ul_newmoble1 .lv1{ padding: 0px 5px; }
+    .pageKqLichngayMb .tableCalendarNiceMb .topTCNMb{ height: 177px; }
+    .pageKqLichngayMb .tableCalendarNiceMb .topTCNMb .dayCenter{ height: 106px; }
+    .pageKqLichngayMb .tableCalendarNiceMb .topTCNMb .btnDC{ top: 37%; }
+    .pageKqLichngayMb .tableCalendarNiceMb .topTCNMb .textDC{ line-height: 96px; }
+    .pageKqLichngayMb .tableCalendarNiceMb .topTCNMb .textDC label{ font-size: 51px; }
+}
+@media only screen and (max-width: 320px) {
+    .ul_newmoble1 .lv1{ padding: 0px 5px; }
+    .pageKqLichngayMb .tableCalendarNiceMb .topTCNMb{ background: url('../../images/icon/top-lich-van-nien.jpg') no-repeat;background-size: 100%;height: 172px;padding-top: 20px; }
+    .pageKqLichngayMb .tableCalendarNiceMb .topTCNMb .textAmlichBot{ text-align: center;font-size: 13px;color: #c69b21;font-weight: bold;padding-top: 5px;font-family: 'font-mai-bold'; }
+    .pageKqLichngayMb .tableCalendarNiceMb .topTCNMb .textThangNam{ font-size: 13px;font-family: 'font-mai-bold';font-weight: bold;color: #c69b21;text-align: center;margin-bottom: 0px;margin-bottom: 2px; }
+    .pageKqLichngayMb .tableCalendarNiceMb .topTCNMb .dayCenter{ height: 100px;line-height: 100px;text-align: center;position: relative; }
+    .pageKqLichngayMb .tableCalendarNiceMb .topTCNMb .textDC{ margin-bottom: 0px;height: 100px;line-height: 83px; }
+    .pageKqLichngayMb .tableCalendarNiceMb .topTCNMb .textDC label{ font-size: 50px;color: #9d1c20;font-weight: bold;margin-left: -13px;font-family: 'font-mai-bold';margin-bottom: 0px; }
+    .pageKqLichngayMb .tableCalendarNiceMb .topTCNMb .btnDC{ position: absolute;height: 24px;width: 24px;top: 35%; }
+    .pageKqLichngayMb .tableCalendarNiceMb .topTCNMb .btnLeftDC{ left: 17%;background:url('../../images/icon/left.png');background-size: 100% 100%; }
+    .pageKqLichngayMb .tableCalendarNiceMb .topTCNMb .btnRightDC{ right: 20%;background:url('../../images/icon/right.png');background-size: 100% 100%; }
+    .list_thang_tot_mb .box_item_thang_mb .box_duong_am .textTop{ font-family: 'font-mai-bold';font-size: 13px; }
+}

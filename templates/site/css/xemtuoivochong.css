@@ -1,0 +1,13 @@
+.xemboituoivochong .form-group{margin-bottom:8px;}
+.xemboituoivochong .rows{width:100%;overflow:hidden;margin-bottom:10px;}
+.xemboituoivochong .rows table{border:1px solid #ddd;width:80%;margin:0px auto;}
+.xemboituoivochong .rows table tr,
+.xemboituoivochong .rows table th{border:1px solid #ddd;}
+.xemboituoivochong .rows table tr td{border:1px solid #ddd;padding:8px;line-height:1.42857143;vertical-align:top;}
+.xemboituoivochong .rows table tr th{text-align:center;background:#d2d2d2;}
+.xemboituoivochong .panel-heading p{font-size:16px;font-weight:bold;font-style:italic;text-align:center;padding:10px 0px;}
+.xemboituoivochong table p{font-size:14px;}
+.xemboituoivochong .rows .text-center{text-align:center;background-color:#f5f5f5;border:1px solid #ddd;padding:8px;line-height:1.42857143;vertical-align:top;font-size:14px;font-weight:bold;}
+.xemboituoivochong .rows .luangiai{background-color:#fff;border:1px solid #ddd;padding:8px;line-height:1.42857143;vertical-align:top;}
+.xemboituoivochong .textred{color:#bc0000!important;}
+.boxgreen{background:#5abd1c;color:#fff;}

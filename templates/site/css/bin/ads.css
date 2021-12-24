@@ -1,0 +1,34 @@
+.main_wrap{
+    position: relative;
+}
+.adsLeftXuyentrang{
+    position: fixed;
+    top: 5%;
+    left: 10px;
+    /*width: 115px;*/
+    overflow: hidden;
+}
+.adsHomeXuyentrang{
+    width: 100%;
+    margin-top: 35px;
+    text-align: center;
+}
+.adsHomeXuyentrang .adsbygoogle{
+    margin: 0px auto;
+}
+.adsRightXuyentrang, .adsResponse1{
+    width: 100%;
+    overflow: hidden;
+}
+.adsBottomXuyentrang{
+    width: 100%;
+}
+@media only screen and (max-width: 1024px) {
+    .adsLeftXuyentrang{
+        display: none;
+    }
+    .adsHomeXuyentrang{
+        width: 100%;
+        margin-top: 50px;
+    }
+}

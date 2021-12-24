@@ -1,0 +1,97 @@
+/* @font-face{
+	font-family:sfbold;
+	src:url( '../fonts/tuvanquangcao/SFUAmericanTypeBold_0.TTF ');
+	font-weight: bold;
+}
+@font-face{
+	font-family:sfmedium;
+	src:url( '../fonts/tuvanquangcao/SFUAmericanTypeMedium_0.TTF ');
+}
+@font-face{
+	font-family:utmcolo;
+	src:url( '../fonts/tuvanquangcao/UTM Colossalis.ttf ');
+}
+.font-sfbold{
+	font-family: sfbold;
+}
+.font-sfmedium{
+	font-family: sfmedium;
+}
+.font-utmcolo{
+	font-family: utmcolo;
+} */
+.ld_tuvanquangcao .uppercase{
+	text-transform: uppercase;
+}
+.ld_tuvanquangcao .font-bold{
+	font-weight: bold;
+}
+.ld_tuvanquangcao .cl_black{
+	color: black;
+}
+.ld_tuvanquangcao .cl_pink{
+	color: #a7419b;
+}
+.font20{
+	font-size: 19px;
+}
+.font35{
+	font-size: 35px;
+}
+.title-tuvanquangcao{
+    background: linear-gradient(to right,#98cee7,#aa2189);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    margin-top: 0px;
+}
+.ld_tuvanquangcao .imgleft img{
+	max-width: 100%;
+	height: 100%;
+}
+.smr{
+	font-family: sfmedium;
+	font-size: 18px;
+	padding: 8px 0px;
+}
+.ld_tuvanquangcao .content .noidung{
+	font-family: sfmedium;
+    font-size: 18px!important;
+    line-height: 25px;
+    border: dotted 2px #ccc;
+    padding: 0px 15px;
+    background-color: #f5f5f5;
+}
+.ld_tuvanquangcao .content .noidung p{
+	font-size: 18px!important;
+}
+.mtop20{
+	margin-top: 20px;
+}
+.tvqcbt{
+	background-color: #ad1f9a;
+	border: none;
+	outline: none;
+	color: #fff;
+	font-family: sfmedium;
+	border-radius: 25px;
+	padding: 2px 15px;
+}
+@media only screen and (max-width: 767px){
+	.smr{
+		font-size: 16px;
+	}
+	.font35{
+		font-size: 20px;
+		text-align: center;
+		margin-top: 10px;
+	}
+	.tt-xs{
+		background: url('../images/tuvanqc/icon2.png') no-repeat;
+    	padding-left: 50px;
+	    background-position: 0px 5px;
+	}
+	.ld_tuvanquangcao span{
+		font-size: 16px!important;
+	}
+}

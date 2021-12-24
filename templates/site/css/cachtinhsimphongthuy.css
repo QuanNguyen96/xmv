@@ -1,0 +1,18 @@
+.ctspt .title_ct{text-align:center;text-transform:uppercase;font-size:28px;line-height:35px;clear:both;background:linear-gradient(to right,#d6a500,#a25100);color:transparent;-webkit-background-clip:text;background-clip:text;}
+.ctspt .title_v2{font-family:'Lobster',cursive;font-size:18px;font-weight:bold;background:url('../images/cachtinhsimphongthuy/1_tieude.png') no-repeat;padding-left:55px;padding-top:10px;height:45px;}
+.ctspt .body_spt{line-height:25px;}
+.title_v3{text-align:center;text-transform:uppercase;background:url('../images/cachtinhsimphongthuy/9.backgreen.jpg') no-repeat;background-size:cover;color:#fff;font-size:18px;font-weight:bold;padding:10px 0px;margin:15px 0px;}
+.title_v4{text-transform:uppercase;background:url('../images/cachtinhsimphongthuy/4.hand_phone.png') no-repeat;padding-left:40px;font-weight:bold;color:#b7782e;margin:20px 0px;}
+.title_v5{text-transform:uppercase;background:url('../images/cachtinhsimphongthuy/5.sim.png') no-repeat;padding-left:30px;font-weight:bold;color:#b7782e;margin:20px 0px;}
+.bg_co{background:url('../images/cachtinhsimphongthuy/2.bookmark.png') no-repeat;padding-left:20px;background-position:0px 5px;}
+.chamdau{background:url('../images/cachtinhsimphongthuy/chamden.jpg') no-repeat;padding-left:20px;background-position:0px 4px;}
+.chamxanh{background:url('../images/cachtinhsimphongthuy/6.elip.png') no-repeat;padding-left:20px;background-position:0px 4px;}
+.btn_xemchitiet{background:url('../images/cachtinhsimphongthuy/8.backdetail.png') no-repeat;background-position:center;border:none;padding:2px 25px;color:#fff;border-radius:25px;outline:none;}
+.btn_thugon{border-radius:25px;border:none;padding:0px 10px;background-color:#830d0f;color:#fff;font-weight:bold;outline:none;}
+.green{color:#228131;margin-top:10px;}
+.yellow{color:yellow;font-weight:bold;}
+.text-indent{text-indent:30px;}
+.bg-black{background-color:black;padding:10px 20px;color:#fff;border-radius:15px;}
+@media (max-width:768px){
+	.img img{width:100%;}
+}

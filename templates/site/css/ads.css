@@ -1,0 +1,37 @@
+.main_wrap{
+    position: relative;
+}
+.adsLeftXuyentrang{
+    position: fixed;
+    top: 5%;
+    left: 10px;
+    /*width: 115px;*/
+    overflow: hidden;
+}
+.adsHomeXuyentrang{
+    width: 100%;
+    margin-top: 15px;
+    text-align: center;
+}
+.adsHomeXuyentrang .adsbygoogle{
+    margin: 0px auto;
+}
+.adsRightXuyentrang, .adsResponse1{
+    width: 100%;
+    overflow: hidden;
+}
+.adsBottomXuyentrang{
+    width: 100%;
+}
+@media only screen and (max-width: 1024px) {
+    .adsLeftXuyentrang{
+        display: none;
+    }
+    .adsHomeXuyentrang{
+        width: 100%;
+        margin-top: 50px;
+    }
+}
+@media(min-width: 320px) { .example_responsive_1 { width: 300px; height: 250px; } }
+@media(min-width: 500px) { .example_responsive_1 { width: 336px; height: 280px; } }
+@media(min-width: 728px) { .example_responsive_1 { width: 728px; height: 280px; } }

@@ -1,0 +1,185 @@
+@font-face {
+  font-family: utmcertumbi;
+  src: url(../fonts/UTM_CenturBoldItalic.ttf);
+}
+.tv_lg{
+   margin-top:55px;
+   margin-bottom: 10px;
+}
+.tv_lg span.btn_tv_lg{
+	display: block;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	font-style: italic;
+	text-transform: uppercase;
+	background-size: cover;
+	font-family: utmcertumbi;
+	line-height: 48px;
+	color:#fff;
+	position: relative;
+	cursor: pointer;
+}
+.tv_lg span.btn_tv{
+   background: url('../images/tv_lg_sim/bt_tv.png') no-repeat center center;
+   background-size: 100%;
+   
+
+}
+.tv_lg span.btn_lg{
+   background: url('../images/tv_lg_sim/bt_lg.png') no-repeat center center;
+   background-size: 100%;
+}
+.tv_lg span:after{
+	content: '';
+	width: 48px;
+	height: 40px;
+	position: absolute;
+	top: -22px;
+    right: -2px;
+	background: url('../images/tv_lg_sim/icon-free.png') no-repeat;
+}
+.mypopup .modal-content{
+	border-radius: 0px;
+}
+.mypopup .close{
+	display: block;
+	width: 40px;
+	height: 40px;
+	background: url(../images/tv_lg_sim/bt_close.png) no-repeat top left;
+	position: absolute;
+	top: -35px;
+	right: -35px;
+	opacity: 1;
+}
+.mypopup form{
+	padding: 15px 30px;
+	background: #f3f3f3;
+}
+.mypopup h4{
+	font-family:utmcertumbi;
+	font-size: 23px;
+	text-transform: uppercase;
+	color:#063d0e; 
+	padding: 0px 90px;
+	line-height: 30px;
+} 
+.tuvansim h4{
+	font-size: 17px;
+	text-align: center;
+}
+.mypopup h4 b{
+	color:#c30707;
+}
+.mypopup form div{ 
+	margin-bottom: 10px; 
+	clear: both;
+}
+.mypopup form label{
+	width: 180px; 
+	float: left;
+	font-size: 15px;
+	font-style: italic;
+	font-weight: bold;
+}
+.tuvansim form label{
+	font-size: 12px !important;
+}
+.mypopup form label b, .mypopup div.note b{
+	color:#820e0e;
+}
+.mypopup form select{
+	height: 30px;
+	border-radius: 3px;
+	margin-right: 6px;
+}
+.mypopup form input[type="text"],.mypopup form input[type="number"],.mypopup form textarea{
+    width: 300px;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    padding-left: 5px;
+}
+.mypopup form textarea{
+    height: 90px;
+}
+.mypopup form div i{
+	font-size:12px;
+}
+.mypopup div.note{
+	font-style: italic;
+}
+.mypopup form button{
+	width: 160px;
+    height: 30px;
+    background: url(../images/tv_lg_sim/bt_yc_lg.png) no-repeat top center;
+    border: none;
+    font-family: utmcertumbi;
+    font-size: 12px;
+    color: #fce4c8;
+    text-transform: uppercase;
+    line-height: 25px;
+    outline: none;
+}
+.mypopup .rdon{
+	margin-left: 10px;
+}
+.luangiaisim_mobi{
+	display: none;
+}
+@media only screen and (max-width:480px) {
+	.tv_lg span.btn_lg{
+		margin-top: 30px;
+	}
+	.luangiaisim_mobi{
+		display: block;
+		line-height: 20px;
+	}
+	.luangiaisim_mobi span{
+        display: block; 
+        text-align: center;
+	}
+	.luangiaisim_mobi span:last-child{
+		color:#fe0000;
+	}
+	.luangiaisim_desk{
+		display: none;
+	}
+	.mypopup form input[type="text"], .mypopup form input[type="number"], .mypopup form textarea{
+		max-width: 100%
+	}
+
+   .mypopup h4{
+   	 padding: 0px;
+   }
+   .mypopup img{
+   	 max-width: 100%;
+   	 display: none;
+   }
+   .mypopup form{
+   	padding: 0px;
+   }
+   .mypopup form input[type="text"], .mypopup form textarea{
+   	 width: 100%;
+   }
+   .mypopup form select{
+   	width: 20%;
+   	margin-right: 5px;
+   }
+   .mypopup form select[name="giosinh"]{
+		width:60%
+	}
+   .mypopup .lbgt{
+   	 width: 100px !important;
+   }
+   .mypopup label{
+   	 width: 100% !important;
+   }
+   .mypopup .btn_tv{
+   	margin-bottom: 40px;
+   }
+   .mypopup .tv_lg span.btn_tv_lg{
+   	font-size: 12px !important;
+   }
+
+}

@@ -1,0 +1,287 @@
+.banglich1{
+	background: #7f3333;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: arial;
+}
+.banglich1_show{
+	line-height: 35px;
+	text-align: center;
+}
+.banglich1_preview{
+	width: 100%;
+	height: 35px;
+	background: url('../images/lichvannien/banglich1_preview.png') no-repeat center right;
+	cursor: pointer;
+}
+.banglich1_next{
+	width: 100%;
+	height: 35px;
+	background: url('../images/lichvannien/banglich1_next.png') no-repeat center left;
+	cursor: pointer;
+}
+.banglich2{
+	background: url('../images/lichvannien/banglich2_bg.png') repeat;
+}
+.banglich2_number{
+	font-size: 90px;
+	font-weight: bold;
+	color: #a2171a;
+}
+.banglich2_text{
+	font-size: 20px;
+	font-weight: bold;
+	color:#a2171a;
+	text-transform: uppercase;
+	margin-top: -20px;
+}
+.banglich2_summary{
+	font-size: 15px;
+	color: #000;
+	font-style: italic;
+	margin: 20px 0px 20px 0px;
+}
+.banglich2_preview{
+	width: 100%;
+    height: 40px;
+    text-align: right;
+    font-size: 15px;
+    color: #a2171a;
+    margin-top: 55px;
+    position: relative;
+    cursor: pointer;
+}
+.banglich2_preview:before{
+	content: '';
+    width: 14px;
+    height: 24px;
+    background: url(../images/lichvannien/banglich2_preview.png) no-repeat center center;
+    position: absolute;
+    top: 0px;
+    right: 65px;
+}
+.banglich2_next{
+	width: 100%;
+    height: 40px;
+    text-align: left;
+    font-size: 15px;
+    color: #a2171a;
+    margin-top: 55px;
+    position: relative;
+    cursor: pointer;
+}
+.banglich2_next:before{
+	content: '';
+    width: 14px;
+    height: 24px;
+    background: url(../images/lichvannien/banglich2_next.png) no-repeat center center;
+    position: absolute;
+    top: 0px;
+    left: 65px;
+}
+.banglich3{
+	border-top: 3px solid #7a7777;
+	background: #e1e1e1;
+	padding: 10px 0px;
+}
+.banglich3 ul{
+	margin: 40px auto;
+	padding: 0px;
+	list-style: none;
+	text-align: center;
+	text-transform: uppercase;
+}
+.banglich3 ul li{
+	margin-bottom: 5px;
+	font-size: 15px;
+	color: #000;
+}
+.banglic3_vong_tron{
+	margin: 0px auto;
+	padding: 40px 0px 0px 0px;
+	width: 183px;
+	height: 183px;
+	text-align: center;
+	background: url('../images/lichvannien/banglich3_vong_tron.png') no-repeat center center;
+}
+.banglic3_vong_tron1{
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #fceb9c;
+}
+.banglic3_vong_tron2{
+	font-size: 80px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #fceb9c;
+    margin-top: -15px;
+}
+.banglich4{
+	background: #e1e1e1;
+}
+.banglich4_tt{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	background: #7a7777;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+}
+.banglich4 ul{
+	margin: 10px 0px;
+	padding: 10px 0px;
+	list-style: none;
+}
+.banglich4 ul li{
+	display: inline-block;
+	width: 32%;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.banglich5{
+	padding: 5px;
+	background: #7f3333;
+}
+.banglich5 a{
+	display: block;
+	padding-top: 40px;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+}
+.banglich5_bv a{
+	background: url('../images/lichvannien/banglich5_baiviet.png') no-repeat top 5px center;
+}
+.banglich5_thang a{
+	background: url('../images/lichvannien/banglich5_lichthang.png') no-repeat top 5px center;
+}
+.banglich5_ngay a{
+	background: url('../images/lichvannien/banglich5_doingay.png') no-repeat top 5px center;
+}
+.banglich5_tv a{
+	background: url('../images/lichvannien/banglich5_tuvi2020.png') no-repeat top 5px center;
+}
+.box_aside_tt1 a {
+    color: #fff7b6!important;
+}
+.lich12thang{list-style-type:none;}
+.lich12thang li{line-height:50px;}
+.lich12thang li a{border-radius:30px;background-color:#9e1618;color:#fff;padding:10px;}
+.lich12thang li a:hover{border:solid 1px red;text-decoration:none;}
+.listnam{
+	padding: 10px;
+	text-align: justify;
+}
+.listnam a{border:1px solid #ccc;padding:5px 16px;color:black;margin:5px 0px;display:inline-block;background-color:lightsteelblue;}
+.listnam a:hover{text-decoration:none;border:1px solid #13a923;}
+
+@media only screen and (max-width:480px){
+   .banglich1_preview{
+      height: 30px;
+      background: url(../images/lichvannien/banglich1_preview.png) no-repeat center left 10px;
+   }
+   .banglich1_next{
+   	 height: 30px;
+   	 background: url(../images/lichvannien/banglich1_next.png) no-repeat center right 10px;
+   }
+   .banglich1_show{
+   	 line-height: 30px;
+   	 font-size: 15px;
+   }
+   .banglich2{
+   	padding: 10px 0px;
+   }
+   .banglich2_number{
+   	  font-size: 50px;
+   }
+   .banglich2_text{
+   	 font-size: 15px;
+   	 margin-top: -10px;
+   }
+   .banglich2_preview{
+   	  margin-top: 30px;
+   	  font-size: 13px;
+   	  
+   }
+   .banglich2_preview:before{
+	content: '';
+    width: 9px;
+   	height: 20px;
+    background: url(../images/lichvannien/banglich2_preview.png) no-repeat center center;
+    position: absolute;
+    top: -2px;
+    right: 65px;
+    background-size: contain;
+   }
+   .banglich2_next{
+   	  margin-top: 30px;
+   	  font-size: 13px;
+   	  background-size: contain;
+   }
+   .banglich2_next:before{
+	content: '';
+    width: 9px;
+   	height: 20px;
+    background: url(../images/lichvannien/banglich2_next.png) no-repeat center center;
+    position: absolute;
+    top: -2px;
+    left: 65px;
+    background-size: contain;
+   }
+   .banglich2_summary{
+   	  text-align: center;
+   	  padding: 0px 20px;
+   	  margin: 0px;
+   }
+   .banglich3{
+   	  padding: 20px 0px;
+   }
+   .banglic3_vong_tron{
+	   	width: 90px;
+	   	height: 90px;
+	   	background-size: contain;
+   }
+   .banglic3_vong_tron1{
+       font-size: 12px;
+       font-weight: normal;
+   }
+   .banglic3_vong_tron{
+   	 padding: 20px 0px 0px 0px;
+   }
+   .banglic3_vong_tron2{
+   	  font-size: 35px;
+   	  margin-top: -5px;
+   }
+   .banglich3 ul{
+   	  margin: 20px auto;
+   }
+   .banglich3 ul li{
+   	font-size: 11px;
+   }
+   .banglich3 ul li b{
+   	 font-size: 11px;
+   }
+   .banglich4_tt{
+   	 font-size: 13px;
+   	 height: 25px;
+   	 line-height: 25px;
+   }
+   .banglich4 ul{
+   	 margin: 0px;
+   }
+   .banglich4 ul li{
+   	 width: 48%;
+   }
+   .banglich5 a{
+   	font-size: 11px;
+   	font-weight: normal;
+   	padding-top: 45px;
+   }
+}

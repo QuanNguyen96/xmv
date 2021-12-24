@@ -1,0 +1,523 @@
+/*Table of content*/
+	/* [1] Genaral style */
+	/* [2] Master page style */
+	/* [3] Boi tinh yeu style*/
+	/* [4] Xem ngay tot xau style */
+/* End Table of content */
+
+/* Start [1] */
+.mobiletest-div{
+	display: none;
+}
+ul{
+	margin: 0px;
+	list-style-type: none;
+	padding-left: 0px;
+}
+.ul-all{
+	margin: 10px 0px;
+}
+.ul-all li{
+	margin-bottom: 5px;
+	padding-left: 25px;
+	background: url('../../images/newmobile/icon_tuvi.png') no-repeat;
+}
+.ul-all li a{
+	color: black;
+	text-decoration: none;
+}
+.menu-search{
+	display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 77%;
+    background-color: black;
+    height: 50px;
+}
+.menu-search input{
+    border-bottom: 1px solid red!important;
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    color: #fff;
+    width: 80%;
+    outline: none;
+    padding-left: 25px;
+}
+.menu-search input::placeholder{
+	color: #fff;
+	font-weight: normal;
+}
+.menu-search button{
+    z-index: 99999;
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+.close-menu-search{
+	position: absolute;
+    top: 0px;
+    right: 42px;
+}
+.close-menu-search span{
+	color: #fff;
+}
+.newnew{
+	background: url('../../images/newmobile/new.png') no-repeat;
+	background-position: right;
+	padding-right: 40px;
+}
+.box-kq-mobile{
+	background: url('../../images/newmobile/2_Xemboitinhyeu_xemketqua.png') repeat;
+	padding: 10px 5px;
+}
+.box-kq-mobile .title-kq-mobile{
+	text-align: center;
+	font-family: Timenewroman;
+	text-transform: uppercase;
+	color: #9d1c20;
+	font-weight: bold;
+	text-shadow: -1px 0 yellow, 0 1px yellow, 1px 0 yellow, 0 -1px yellow;
+}
+.no-pd{
+	padding: 0px;
+}
+.body-content-mobile{
+	background: url('../../images/newmobile/bgr.png') repeat;
+	padding: 0px 12px;
+}
+
+.title-new-mobile{
+    padding-top: 18px;
+    text-transform: uppercase;
+    font-family: Timenewroman;
+    color: #fceb9c;
+    font-size: 15px;
+    text-align: center;
+    background: url('../../images/newmobile/background-title.png') no-repeat;
+    height: 55px;
+    background-position: center;
+    margin: 0px auto;
+    background-size: 100%;
+    font-weight: bold;
+}
+.body-mobile{
+	background-color: #fff;
+	padding: 10px 10px 0px 10px;
+}
+.box-mobile{
+    margin-bottom: 5px;
+}
+.title-mobile-form{
+	font-size: 12px!important;
+    font-weight: bold;
+    font-style: italic;
+    background: url(../../images/newmobile/1_trangchu_stop-circle.png) no-repeat 0% 35%;
+    padding-left: 10px;
+}
+.m-btom{
+	margin-bottom: 20px;
+}
+.form-tool-mobile{
+	margin: 20px 0px;
+}
+.form-tool-mobile{
+	padding: 15px 10px;
+	background-color: #9d1c20;
+	border-radius: 15px;
+}
+.form-tool-mobile .title-form-mobile{
+	color: #fceb9c;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Timenewroman;
+}
+.form-tool-mobile .title-condition{
+	color: #cbb758;
+	font-style: italic;
+	font-family: Timenewroman;
+}
+.form-tool-mobile input{
+	background-color: transparent;
+	width: 100%;
+	border: solid 1px #fff;
+}
+.form-tool-mobile input::placeholder{
+	color: #fff;
+	font-weight: normal;
+	padding-left: 15px;
+	font-style: normal;
+}
+.form-tool-mobile select{
+	background-color: transparent;
+	border: solid 1px #fff;
+	color: #fff;
+}
+.form-tool-mobile button{
+	background-color: #fceb9c;
+	font-family: Timenewroman;
+	text-transform: uppercase; 
+	border-radius: 15px;
+	outline: none;
+	padding: 3px 10px;
+	border: solid 1px #a37901;
+	font-weight: bold;
+	color: #9d1c20;
+}
+footer{
+	background-color: #9d1c20;
+	padding: 15px;
+}
+footer ul li a{
+	color: #730e11;
+	font-weight: bold;
+	font-size: 13px;
+}
+footer ul li{
+	width: 50%;
+	float: left;
+}
+footer ul li a:hover{
+	color: #f5e489;
+	text-decoration: none;
+}
+footer .title-footer-new-mobile{
+	margin: 8px 0px;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: Timenewroman;
+	color: #9d1c20;
+	padding: 8px 15px;
+	border-radius: 25px;
+	background-color: #f5e384;
+}
+footer .xemngay-all li{
+    width: 20%;
+    float: left;
+    border: solid 1px #f5e384;
+    margin: 5px 7px;
+}
+footer .text-foot-newmobile{
+	clear: both;
+	color: #fceb9c;
+	font-size: 13px;
+}
+.footerButtonCl{  }
+.footerButtonCl a{ cursor: pointer; }
+.footerButtonCl a.active{ color: #f5e384; }
+
+.boxFooter{  }
+.boxFooter .miniboxFooter{ display: none; }
+.boxFooter .active{ display: block; }
+#backtotop-mobile{
+    display: block;
+    z-index: 9999999;
+    position: fixed;
+    bottom: 38px;
+    right: 20px;
+    opacity: .6;
+    transition: background .3s,color .3s;
+    -webkit-transition: background .3s,color .3s;
+    -moz-transition: background .3s,color .3s;
+}
+.menu-bottom{
+	position: fixed;
+    bottom: 80px;
+    right: 20px;
+    cursor: pointer;
+}
+.menu-bottom ul{
+	display: none;
+	position: absolute;
+    width: 200px;
+    bottom: 0px;
+    right: 46px;
+	padding: 10px 0px 10px 0px;
+	background: url('../../images/newmobile/bgmenuduoi.jpg') repeat;
+}
+.menu-bottom ul li{
+	padding: 5px 10px;
+	border-bottom: 1px solid #ddd;
+	text-align: right;
+}
+.menu-bottom ul li a{
+    color: #1b1b1b;
+    text-decoration: none;
+    font-weight: bold;
+}
+.color_yellow{
+	color: yellow;
+}
+/* End [1] */
+
+/* Start [2] */
+.menu-newmobile{
+	position: relative;
+}
+.menu-newmobile .ul_newmoble1 .lv1 .ul2{
+	position: absolute;
+    background-color: #ffdd11;
+    width: 220px;
+    text-align: right;
+    top: 51px;
+    right: 12px;
+    z-index: 999;
+    display: none;
+}
+.menu-newmobile .ul_newmoble1 .lv1 .ul2 .lv2{
+	border-bottom: 1px dotted #aa9611;
+	padding: 5px 10px 5px 5px;
+	text-align: left;
+}
+.menu-newmobile .ul_newmoble1 .lv1 .ul2 .lv2 a{
+	color: #aa9611;
+	text-decoration: none;
+}
+.menu-newmobile .ul_newmoble1 .lv1 .ul2 .lv2 .ul3 .lv3{
+    padding: 5px 0px 5px 15px;
+}
+.ul_newmoble1{
+	list-style-type: none;
+	padding: 5px 0px;
+	background-color: #71685b;
+}
+.ul_newmoble1 .lv1{
+	display: inline-block;
+	padding: 0px 8px;
+	cursor: pointer;
+}
+.ul_newmoble1 .lv1 i{
+	color: #fea519;
+}
+.ul_newmoble1 .lv1 span{
+	color: #fff;
+	font-weight: bold;
+}
+.ul_newmoble1 .lv1 a{
+	text-decoration: none;
+}
+.box-mobile-xemtuvi{
+	margin-bottom: 20px;
+}
+.box-mobile-xemtuvi img{
+	width: 100%;
+}
+.form-xtv .box-form{
+	background-color: #ffce00;
+}
+.article-new-mobile{
+	margin-top: 15px;
+}
+.article-new-mobile .avarta img{
+	width: 100%;
+}
+
+.article-new-mobile a{
+	color:#9d1c20;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 13px;
+}
+.box-form{
+	padding: 5px 10px;
+}
+.box-mobile img{
+	border: solid 1px #a37901;
+	margin-bottom: 8px;
+    max-width: 100%;
+    max-height: 100px;
+}
+.box-mobile a{
+	text-decoration: none;
+}
+.box-mobile a p{
+	color: black;
+	font-weight: bold;
+	font-size: 13px;
+	height: 40px;
+}
+.box-form label{
+	font-family: Timenewroman;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding-left: 5px;
+	border-left: 4px solid #fcb647;
+}
+.box-form button{
+	background: url('../../images/newmobile/1_trangchu_button.png') no-repeat;
+	background-color: transparent;
+	background-size: cover;
+	border: none;
+	outline: none;
+	width: 45px;
+	color: #fff;
+	font-size: 13px;
+	font-family: Timenewroman;
+	text-transform: uppercase;
+}
+.box-form input,select{
+    width: 100%;
+    height: 25px;
+    border: solid 1px #fcb647;
+    outline: none;
+    background-size: 13%;
+    background-position: 97%;
+    padding: 0px 5px;
+}
+/* End [2] */
+
+/* Start [3] */
+.box-info-mobile{
+	margin: 15px 0px;
+}
+.info-right{
+	background-color: #fceb9c;
+	padding: 10px;
+}
+.male{
+	-webkit-transform: rotate(-90deg); 
+   -moz-transform: rotate(-90deg);    
+    width:100px;
+    position: absolute;
+    left: -30px;
+    top: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Timenewroman;
+}
+.box-kq-mobile .total-score{
+	background: url('../../images/newmobile/2_xemboitinhyeu_background.jpg') no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: yellow;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.box-kq-mobile .text-kluan{
+	font-style: italic;
+    background: url(../../images/newmobile/2_xemboitinhyeu_heart.png) no-repeat 0% 16%;
+    padding-left: 20px;
+    color: black;
+    margin: 15px 0px;
+}
+.img-dieuhuong img{
+	width: 100%;
+	border: none;
+}
+/* End [3] */
+
+/* Start [4] */
+.title-not-bgr-img{
+	background-color: #9d1c20;
+	padding: 5px 10px;
+	text-align: center;
+	margin-top: 15px;
+}
+.title-not-bgr-img p:first-child{
+	font-family: Timenewroman;
+	text-transform: uppercase;
+	color: #fceb9c;
+	font-weight: bold;
+	margin: 0px 0px;
+}
+.title-not-bgr-img p:last-child{
+	color: #cbb758;
+	font-style: italic;
+	margin: 0px 0px;
+}
+.title-xemngay{
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Timenewroman;
+	font-weight: bold;
+	margin: 5px 0px;
+	background: url('../../images/newmobile/bg-title-xemngay.png') no-repeat;
+	background-position: center bottom;
+}
+.box-gio-hoangdao{
+	background-color: #fffbe7;
+	padding: 4px;
+}
+.box-gio-hacdao{
+	background-color: #fff7cf;
+	padding: 4px;
+}
+.box-ngayky{
+	background-color: #fff2b7;
+	padding: 4px;
+}
+.box-nguhanh{
+	background-color: #ffee9f;
+	padding: 4px;
+}
+.box-btbkn{
+	background-color: #ffea87;
+	padding: 4px;
+}
+.box-kmld{
+	background-color: #ffe670;
+	padding: 4px;
+}
+.box-ntbt{
+	background-color:#ffe257 ;
+	padding: 4px;
+}
+.box-tnkt{
+	background-color: #ffdd40;
+	padding: 4px;
+}
+.box-nhtt{
+	background-color: #ffe466;
+	padding: 4px;
+}
+.box-huongxuathanh{
+	background-color:#ffe779 ;
+	padding: 4px;
+}
+.box-lythuanphong{
+	background-color:#ffeb8c ;
+	padding: 4px;
+}
+.box-next-day{
+	margin: 15px 0px;
+	padding: 10px;
+}
+.box-next-day .title-next-day{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: Timenewroman;
+}
+.box-next-day ul{
+	list-style-type: square;
+	padding-left: 15px;
+}
+.box-next-day ul li a{
+	color: black;
+}
+.box-alarm{
+	margin: 15px 0px;
+	background: url('../../images/newmobile/bgalarm.jpg') repeat;
+	border-radius: 15px;
+	padding: 10px 10px;
+	color: #fff;
+	line-height: 25px;
+}
+.box-alarm img{
+	border: none;
+}
+.box-alarm .title-alarm{
+	color: yellow;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: Timenewroman;
+	font-size: 16px;
+}
+/* End [4] */

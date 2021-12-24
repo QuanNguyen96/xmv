@@ -1,0 +1,223 @@
+@media screen and (max-width: 20000px) and (min-width: 1100px){
+	
+}
+
+@media only screen and (max-width: 1024px) {
+	.main_menu ul li a{ font-size: 17px; }
+}
+ 
+@media only screen and (max-width: 980px) {
+	.btnclick{ display: block; }
+	.main_menu{ display: none; }
+	.box_content_tt{ font-size: 14px; }
+	*{ font-size: 14px; }
+	.box_xvm p{ font-size: 14px; }
+}
+ 
+@media only screen and (max-width: 800px) {
+	
+}
+ 
+@media only screen and (max-width: 780px) {
+	
+}
+ 
+/*Ipad dọc(768 x 1024)*/
+@media only screen and (max-width: 768px) {
+.modal-dialog{
+	width: 90%;
+}
+.tool_view_much{
+	text-align: center;
+}
+.tool_view_much img{
+	width: 40%;
+}
+.ln_body_1 h3{
+	font-size: 126px;
+}
+.txt_btom{
+	text-align: center!important;
+}
+.txt_btom a{
+	font-size: 20px;
+}
+.main_frame{
+	margin-top: 30px;
+}
+.tvn li{
+    width: 1000%;
+}
+.box_aside_tt1{
+	font-size: 14px;
+}
+.img_tuvi2018{
+	width: 100%;
+}
+.table_tuvi2018 tbody tr:nth-child(1){
+	background-color: #b9ec7e;
+}
+.table_tuvi2018 tbody tr:nth-child(1) td:nth-child(1){
+	display: none;
+}
+.table_tuvi2018 tbody tr:nth-child(2) td:nth-child(1){
+	display: none;
+}
+.table_tuvi2018 tbody tr:nth-child(9) td:nth-child(1){
+	display: none;
+}
+.table_tuvi2018 tbody tr:nth-child(10) td:nth-child(1){
+	display: none;
+}
+.table_tuvi2018 tbody tr:nth-child(17) td:nth-child(1){
+	display: none;
+}
+.table_tuvi2018 tbody tr:nth-child(18) td:nth-child(1){
+	display: none;
+}
+.table_tuvi2018 tbody tr:nth-child(25) td:nth-child(1){
+	display: none;
+}
+.table_tuvi2018 tbody tr:nth-child(26) td:nth-child(1){
+	display: none;
+}
+.table_tuvi2018 tbody tr:nth-child(33) td:nth-child(1){
+	display: none;
+}
+.table_tuvi2018 tbody tr:nth-child(34) td:nth-child(1){
+	display: none;
+}
+.table_tuvi2018 tbody tr:nth-child(41) td:nth-child(1){
+	display: none;
+}
+.table_tuvi2018 tbody tr:nth-child(42) td:nth-child(1){
+	display: none;
+}
+.table_tuvi2018 tbody tr:nth-child(49) td:nth-child(1){
+	display: none;
+}
+.table_tuvi2018 tbody tr:nth-child(50) td:nth-child(1){
+	display: none;
+}
+.table_tuvi2018 tbody tr:nth-child(57) td:nth-child(1){
+	display: none;
+}
+.table_tuvi2018 tbody tr:nth-child(58) td:nth-child(1){
+	display: none;
+}
+.table_tuvi2018 tbody tr:nth-child(65) td:nth-child(1){
+	display: none;
+}
+.table_tuvi2018 tbody tr:nth-child(66) td:nth-child(1){
+	display: none;
+}
+.table_tuvi2018 tbody tr:nth-child(73) td:nth-child(1){
+	display: none;
+}
+.table_tuvi2018 tbody tr:nth-child(74) td:nth-child(1){
+	display: none;
+}
+.table_tuvi2018 tbody tr:nth-child(81) td:nth-child(1){
+	display: none;
+}
+.table_tuvi2018 tbody tr:nth-child(82) td:nth-child(1){
+	display: none;
+}
+.table_tuvi2018 tbody tr:nth-child(89) td:nth-child(1){
+	display: none;
+}
+.table_tuvi2018 tbody tr:nth-child(90) td:nth-child(1){
+	display: none;
+}
+.table_tuvi2018 tbody tr:nth-child(97) td:nth-child(1){
+	display: none;
+}
+.listDay_good tbody tr{
+    width: 95%;
+}
+}
+ 
+@media only screen and (max-width: 720px) {
+	
+}
+
+@media only screen and (max-width: 668px) {
+	
+}
+ 
+@media only screen and (max-width: 640px) {
+	
+
+}
+ 
+@media only screen and (max-width: 600px) {
+	
+}
+ 
+@media only screen and (max-width: 568px) {
+	
+}
+ 
+@media only screen and (max-width: 563px) {
+
+}
+ 
+@media only screen and (max-width: 549px) {
+ 
+}
+ 
+@media only screen and (max-width: 534px) {
+ 
+}
+
+/*Tablet nhỏ(480 x 640)*/
+@media only screen and (max-width: 480px) {
+	.box_content_gird li{ width: 45%; }
+	.boxListArticlePage .minibox .boxLeft{ width: 100%; }
+	.boxListArticlePage .minibox .boxRight{ width: 100%; }
+	#menuFooter .tab-content .tab-pane ul li{ width: 18%; }
+	.listDay_good table tr td{ width: 100%;float: left; }
+	.listDay_good table tr th{ width: 100%;float: left; }
+	.listDay_good table thead{ display: none; }
+}
+
+/*Iphone(480 x 640)*/
+@media only screen and (max-width: 435px) {
+	
+}
+
+/*Iphone(480 x 640)*/
+@media only screen and (max-width: 411px) {
+	
+}
+
+/*Iphone6(480 x 640)*/
+@media only screen and (max-width: 375px) {
+	
+}
+
+@media only screen and (max-width: 360px) {
+	#menuFooter .tab-content .tab-pane ul li{ width: 22%; }
+}
+ 
+@media only screen and (max-width: 338px) {
+	
+}
+ 
+@media only screen and (max-width: 330px) {
+
+}
+
+/*Smart phone nhỏ*/
+@media only screen and (max-width: 320px) {
+	
+}
+
+@media only screen and (max-width: 306px) {
+	
+}
+
+/*Smart phone nhỏ*/
+@media only screen and (max-width: 240px) {
+	
+}

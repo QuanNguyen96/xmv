@@ -1,0 +1,10 @@
+application/cache/
+application/config/config.php
+application/config/database.php
+application/logs
+media/
+#robots.txt
+#.htaccess
+#https.php
+#bigdump.php
+.idea

@@ -1,0 +1,98 @@
+/** ASK STYLE **/
+#tool_new{line-height:25px;}
+#tool_new #ask,
+#ask .ul_list li{width:100%;float:left;}
+#tool_new #ask ul{margin:0px;padding:0px;}
+#tool_new #ask .ul_list li{list-style:none;width:100%;margin-bottom:10px;}
+#tool_new #ask input[type="text"],
+#ask input[type="password"],
+#ask select,
+#ask textarea{width:100%;border:1px solid #ccc;padding:5px;}
+#tool_new #ask select{height:30px;}
+#tool_new #ask .ul_list li input[type="radio"]{margin:0px 10px 0px 30px;}
+#tool_new #ask .ul_list li div{width:50%;float:left;padding:2px;}
+#tool_new #ask .ul_list li div input{width:}
+#tool_new .list_ask li{list-style:none;width:100%;float:left;border:1px solid #e6e4e4;margin:0px 0px 5px 0px;padding:5px;}
+#tool_new .list_ask ul li p{text-align:justify;line-height:23px;}
+#tool_new .cm_ct{width:100%!important;text-align:right;font-size:12px;}
+#tool_new .cm_ct a:last-child{margin-left:10px;}
+#tool_new .mb_info{text-align:right;font-size:12px;}
+#tool_new .mb_info span{cursor:pointer;margin-left:10px;color:#428bca;}
+
+/** END ASK STYLE **/
+#tool_new .menu-head ul{position:absolute;list-style-type:none;padding:5px 0px;margin-bottom:0px;}
+#tool_new .menu-head ul li{border-right:1px solid #ccc;display:inline-block;}
+#tool_new .menu-head ul li a{padding:0px 10px;text-decoration:none;}
+#tool_new .banner img{width:100%;}
+#tool_new .navbar{min-height:40px;margin-bottom:0px;border-radius:0px;}
+#tool_new .navbar-default{background-color:#009688;}
+#tool_new .navbar-default .navbar-nav>li>a{text-transform:uppercase;padding:10px 100px;color:#FF9800;font-weight:bold;}
+#tool_new .nav li{border-right:1px solid #fff;}
+#tool_new .nav li:last-child{border:none;}
+#tool_new .title-lienket{text-transform:capitalize;color:#FF5722;padding:10px;text-shadow:1px 1px 1px;font-weight:bold;}
+#tool_new .lienket{text-align:center;}
+#tool_new .lienket a{font-size:24px;padding:0px 15px;}
+#tool_new .lk-content{background-color:#FFEB3B;padding:10px;}
+#tool_new .foot{background-color:#4CAF50;margin-top:10px;color:#fff;}
+#tool_new .title-text-foot{font-weight:bold;}
+#tool_new .title-foot{text-align:center;border-top:1px solid #fff;font-weight:bold;text-transform:capitalize;}
+#tool_new .foot ul li a{text-decoration:none;color:#fff;}
+#tool_new .foot ul li a:hover{color:red;}
+
+/* [2] Home style */
+#tool_new #tool_new .box{background:url('../images/con-chuot.jpg') no-repeat;background-size:cover;padding:10px;background-position:center;}
+#tool_new .box-title{text-align:center;font-size:30px;text-transform:uppercase;color:#FF9800;text-shadow:1px 1px 1px;font-weight:bold;}
+#tool_new .box-content{padding:10px;color:#FF9800;}
+#tool_new .box-content .form-control{border:1px solid #00BCD4;color:#03A9F4;}
+#tool_new .text-mota{padding:15px;text-align:justify;margin-top:10px;line-height:25px;border:solid 1px #ccc;margin-bottom:10px;}
+#tool_new .canhty{background-color:#65301d;height:300px;}
+#tool_new .nhamty{background-color:#4CAF50;height:300px;}
+#tool_new .giapty{background-color:#ccc;height:300px;}
+#tool_new .binhty{background-color:#fff;height:300px;}
+#tool_new .mauty{background-color:red;height:200px;}
+
+/* [3] Category style */
+#tool_new .banner h1{position:absolute;z-index:9;top:20px;color:#FF5722;left:43%;text-transform:uppercase;font-weight:bold;text-shadow:1px 1px 1px;}
+#tool_new .path ul{list-style-type:none;padding-left:0px;}
+#tool_new .path ul li{display:inline-block;margin-top:2px;display:inline-block;background-color:#f44336;padding:5px;}
+#tool_new .path ul li a{text-decoration:none;color:#fff;}
+#tool_new .glyphicon-home{color:#fff;}
+.box_text_category{margin-top:10px;border:solid 1px #ccc;padding:10px;text-align:justify;line-height:23px;}
+#tool_new .box_ml{margin-top:10px;}
+#tool_new .box_nam{text-align:center;background-color:rebeccapurple;height:300px;border:solid 1px #ccc;}
+#tool_new .box_nam h2{padding-top:100px;color:#fff;text-transform:capitalize;}
+#tool_new .box_nu{text-align:center;background-color:yellowgreen;height:300px;border:solid 1px #ccc;}
+#tool_new .box_nu h2{padding-top:100px;text-transform:capitalize;}
+#tool_new .box_ml h2 a{text-decoration:none;color:#fff;}
+#tool_new .box_ml h2 a:hover{color:red;}
+
+/* [4] Category Detail style */
+#tool_new .box_xemtuoi{border-bottom:dotted 1px rebeccapurple;margin-top:20px;margin-bottom:20px;}
+#tool_new .tab-pane{margin-top:10px;padding:10px;}
+#tool_new .title-tool{text-align:center;font-size:24px;text-transform:uppercase;font-weight:bold;color:red;text-shadow:1px 1px 1px;}
+#tool_new .panel{border-radius:0px;}
+#tool_new .panel-heading{border-radius:0px;text-transform:capitalize;font-weight:bold;}
+#tool_new .riven{padding:5px;}
+#tool_new .title-tool-xemngay{text-align:center;padding:5px;background-color:#8BC34A;text-transform:capitalize;color:#fff;}
+#tool_new .yasuo div{margin-top:5px;}
+#tool_new .btn{border-radius:0px;}
+
+/* [5] Tool style */
+#tool_new .text-chitiet{margin:10px 0px;padding:15px;border:double #FF5722;text-align:justify;line-height:25px;}
+#tool_new .text-end{margin:10px 0px;padding:15px;text-align:justify;line-height:25px;background-color:forestgreen;color:#fff;border-radius:20px;}
+#tool_new .box-nhap{background-color:darkseagreen;padding:20px;border-radius:15px;}
+#tool_new .box-nhap div{margin:5px 0px;}
+#tool_new .cauhoi{border:dotted 2px red;background-color:aliceblue;padding:20px;}
+#tool_new .cauhoi div{margin:10px 0px;}
+#tool_new .title-cauhoi{color:brown;text-transform:uppercase;}
+
+/* [6] News style */
+#tool_new .news{padding:10px;background:url('../images/b.jpg') repeat;}
+#tool_new .tieude-news{font-size:24px;color:brown;}
+#tool_new .noidung-tintuc{line-height:25px;text-align:justify;margin:10px 0px;}
+
+/* //////////// */
+#tool_new .form_congcu div{margin:10px 0px;}
+#tool_new .error{background:#f1cdc2;border:1px solid #fe0000;padding:5px;font-weight:bold;color:#fe0000;font-family:Tahoma;}
+#tool_new .error p{margin:0px;}
+.hidden{display:none;}

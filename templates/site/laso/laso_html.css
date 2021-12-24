@@ -1,0 +1,309 @@
+.lasotuvi {
+    width: 674px;
+    height: 970px;
+    margin: 50px auto;
+    font-size: 11px;
+    background: url(../images/laso.png) no-repeat top left;
+    box-sizing: content-box !important;
+}
+
+.cung {
+    width: 150px;
+    height: 220px;
+    float: left;
+    position: relative;
+    padding: 10px 5px;
+    box-sizing: content-box !important;
+}
+
+.cung_1,
+.cung_2,
+.cung_7,
+.cung_8 {
+    width: 162px !important;
+    float: left;
+    box-sizing: content-box !important;
+}
+
+.cung p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.cung ul li {
+    line-height: 15px;
+}
+
+.group_cung {
+    width: 180px;
+    float: left;
+}
+
+.trung_tam_tu_vi {
+    width: 362px;
+    height: 480px;
+    float: left;
+    border: 1px solid #ccc;
+    border-width: 1px 1px 0px 0px;
+}
+
+.trung_tam_tu_vi h1 {
+    text-align: center;
+}
+
+.trung_tam_tu_vi table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.trung_tam_tu_vi table td {
+    padding: 5px 0px 5px 10px;
+}
+
+.trung_tam_tu_vi table td:first-child {
+    width: 110px;
+}
+
+.trung_tam_tu_vi table td label {
+    display: block;
+    padding: 0px 0px 0px 25px;
+    font-weight: bold;
+}
+
+.trung_tam_tu_vi table tr td:last-child {
+    color: #387ABF;
+}
+
+.cung ul {
+    width: 50%;
+    float: left;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.cung ul li {
+    padding: 0px 0px 0px 5px;
+}
+
+.cung p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.triet {
+    position: absolute;
+    display: block;
+    background-color: #000;
+    color: #fff;
+    padding: 2px 20px;
+    z-index: 999;
+}
+
+.triet1 {
+    top: 223px;
+    left: -32px;
+}
+
+.triet2 {
+    top: 223px;
+    left: -32px;
+}
+
+.triet3 {
+    top: 220px;
+    /*right: -26px;*/
+}
+
+.triet4 {
+    top: 230px;
+    left: 60px;
+}
+
+.triet5 {
+    top: 230px;
+    left: 60px;
+}
+
+.triet6 {
+    top: 230px;
+    left: 60px;
+}
+
+.triet7 {
+    top: 230px;
+    left: 60px;
+}
+
+.triet8 {
+    top: 230px;
+    left: 60px;
+}
+
+.triet9 {
+    top: 230px;
+    left: 60px;
+}
+
+.triet10 {
+    top: 230px;
+    left: 60px;
+}
+
+.triet11 {
+    top: 230px;
+    left: 60px;
+}
+
+.triet12 {
+    top: 223px;
+    left: -32px;
+}
+
+.tieu_han {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    font-weight: bold;
+}
+
+.daihan {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.han_thang {
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+
+.laso_control {
+    text-align: center;
+}
+
+.laso_control button,
+.laso_control a {
+    background: #A28F58;
+    border: 1px solid #A28E53;
+    color: #fff;
+    padding: 5px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.laso_control button:hover,
+.laso_control a:hover {
+    background: #80765A;
+}
+
+.color_1 {
+    color: #000;
+}
+
+.color_2 {
+    color: #0D8417;
+}
+
+.color_3 {
+    color: #FF0531;
+}
+
+.color_4 {
+    color: #C79E00;
+}
+
+.color_5 {
+    color: #649E9E;
+}
+
+/** Custom feild **/
+@font-face {
+    font-family: 'font-mai-bold';
+    src: url('../fonts/font-mai/UTM-CenturBold.ttf');
+}
+.lasoTuviWrap{ background: #f6f1db;padding: 25px 25px; }
+.lasoTuviWrap .listBoxLaso{  }
+.lasoTuviWrap .listBoxLaso .title_l{ position: relative;height: 41px;line-height: 41px;overflow: hidden;text-align: center;font-family: 'font-mai-bold';background: #940609;margin-bottom: 14px; }
+.lasoTuviWrap .listBoxLaso .title_l label{ font-size: 17px;color: #e3c180; }
+.lasoTuviWrap .listBoxLaso .title_l:before{ position: absolute;top: 4px;left: 5px;content: " ";display: block;width: 34px;height: 34px;background: url('../images/icon-laso/icon_1-8.png');background-size: 100%; }
+.lasoTuviWrap .listBoxLaso .title_l:after{ position: absolute;top: 2px;right: 5px;content: " ";display: block;width: 8px;height: 37px;background: url('../images/icon-laso/icon_2-8.png') no-repeat;background-size: 100% 100%; }
+.lasoTuviWrap .viewmore{ text-align: center;color: #bba22d;color: #bba22d;font-size: 15px;font-weight: bold;margin-bottom: 15px; }
+.lasoTuviWrap .viewmore img{ padding-top: 3px; }
+.lasoTuviWrap .viewShow{  }
+.lasoTuviWrap .viewHidden{  }
+.lasoTuviWrap .listBoxLaso .title_icon{ position: relative;padding-left: 40px;/*height: 25px;line-height: 25px;*/color: #000;font-weight: bold; }
+.lasoTuviWrap .listBoxLaso .title_icon label{ /*margin-left: 20px;*/margin-bottom: 0px;/*position: absolute;right: 20%;*/font-size: 13px;text-decoration: underline; }
+.lasoTuviWrap .listBoxLaso .title_icon:before{ position: absolute;top: 1px;left: 5px;content: " ";display: block;width: 23px;height: 23px;background: url('../images/icon-laso/star.png');background-size: 100% 100%; }
+.lasoTuviWrap .listBoxLaso .title_icontron:before{ position: absolute;top: 1px;left: 5px;content: " ";display: block;width: 23px;height: 23px;background: url('../images/icon-laso/tu-vi-tron-doi.png');background-size: 100% 100%; }
+.lasoTuviWrap .listBoxLaso .title_iconsao{  }
+.lasoTuviWrap .listBoxLaso .viewbox{ position: relative;cursor: pointer;text-align: left;border-right: 2px solid #929090; }
+.lasoTuviWrap .listBoxLaso .viewbox span{ position: absolute;content: " ";display: block;width: 9px;height: 9px;background: url('../images/icon-laso/angle-double-right.png');background-size: 100% 100%;top: 8px;right: -18px; }
+.lasoTuviWrap .listBoxLaso .boxYnghiaSao{ position: relative; }
+.lasoTuviWrap .listBoxLaso .contentByIcon{ display: none;/*position: relative;*/z-index: 5;background: #ffffff;padding: 15px 25px;text-align: justify;max-height: 500px;overflow-y: scroll;opacity: 0;transition: opacity 1000s ease 0s;transition: display 1000s ease 0s; }
+.lasoTuviWrap .listBoxLaso .closeViewbox{ position: absolute;right: 26px;top: 4px;width: 16px;height: 16px;background: url('../images/icon-laso/times-circle.png');background-size: 100% 100%;margin-bottom: 0px;padding: 0px;z-index: 500;border: none; }
+.lasoTuviWrap .listBoxLaso .title_vh_age{ position: relative;padding-left: 40px;height: 25px;line-height: 25px;font-weight: bold; }
+.lasoTuviWrap .listBoxLaso .title_vh_age:before{ position: absolute;top: 1px;left: 5px;content: " ";display: block;width: 23px;height: 23px;background: url('../images/icon-laso/Layer-8.png');background-size: 100% 100%; }
+.lasoTuviWrap .listBoxLaso .title_vh_age{ font-family: sans-serif;font-weight: bold; }
+.lasoTuviWrap .listBoxLaso .title_box_vh_age{ background: #fdaf25;border-radius: 40px;color: #000;padding: 3px 1px 3px 18px;position: relative; }
+.lasoTuviWrap .listBoxLaso .title_icon_vh{ width: 19px;height: 19px;background: url('../images/icon-laso/angle-right-.png');background-size: 100% 100%;position: absolute;top: 4px;right: 10px; }
+.lasoTuviWrap .listBoxLaso .contentByVh{ padding: 18px 25px;background: #fff;max-height: 500px;overflow-y: scroll; }
+.lasoTuviWrap .listBoxLaso .content{ display: none; }
+.lasoTuviWrap .listBoxLaso .contentByVh{ display: none; }
+.lasoTuviWrap .listBoxLaso .imageButton{ width: 25px;height: 26px;background: url('../images/icon-laso/angle-down.png') no-repeat;background-size: 100% 100%; }
+.imageButtonClose{ background: url('../images/icon-laso/angle-up.png') no-repeat !important;background-size: 100% 100% !important; }
+.imageButtonOpen{ background: url('../images/icon-laso/angle-down.png') no-repeat !important;background-size: 100% 100% !important; }
+
+.maxHeight1500{ max-height: 1500px !important; }
+
+.lasoTuviWrap .listBoxLaso .boxContentMini{  }
+.lasoTuviWrap .listBoxLaso .boxContentMini .contentMini{ max-height: 212px;overflow: hidden;border-bottom: 2px solid #cccccc30; }
+.shower{ display: block !important;opacity: 1 !important;  }
+
+.title_icon_show{ background: url('../images/icon-laso/angle-down_2.png') !important;background-size: 100% 100% !important; }
+.title_icon_close{ background: url('../images/icon-laso/angle-right-.png') !important;background-size: 100% 100% !important;  }
+.fontweight400{  }
+.fontweight400 strong{ font-weight: 400 !important; }
+
+#previewImage{  }
+#previewImage canvas{ max-width: 100%; }
+#previewImage img{ max-width: 100%; }
+#lasotuvi table tr td{ padding: 0px; }
+
+@media only screen and (max-width: 568px) {
+    .lasoTuviWrap .listBoxLaso .title_l label{ font-size: 13px; }
+    .lasoTuviWrap .listBoxLaso .title_icon label{ right: 20%; }
+    .lasoTuviWrap .listBoxLaso .title_box_vh_age{ padding: 3px 1px 3px 13px;font-size: 13px; }
+    /*#lasotuvi{ display: none; }*/
+    .modal-header .close{ padding: 0px 7px !important;border-radius: 27px !important; }
+    .modal-header{ padding-bottom: 3px !important; }
+    .lasoTuviWrap{ padding: 5px 3px; }
+}
+
+@media only screen and (max-width: 320px) {
+    .lasoTuviWrap .listBoxLaso .title_l label{ font-size: 11px; }
+    .lasoTuviWrap{ padding: 5px 2px; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

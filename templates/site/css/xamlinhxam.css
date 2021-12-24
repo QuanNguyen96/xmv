@@ -1,0 +1,9 @@
+.bgRightToolAllPage_toolnew #btn_xinque{background:url('../images/xamlinhxam/batquaixoay.gif') no-repeat 100% 100%;width:78px;height:78px;outline:none;border:0px;}
+.bgRightToolAllPage_toolnew #tbl_xinxam tr td,
+#tbl_xinkeo tr td{text-align:center;}
+.bgRightToolAllPage_toolnew #btn_xinkeo{background:url('../images/xamlinhxam/nutxinkeo.gif') no-repeat 100% 100%;outline:none;width:50px;height:30px;border:0px;}
+.bgRightToolAllPage_toolnew .lbl{font-family:cursive;text-align:center;font-weight:600;border-top:1px solid rgba(7,23,57,0.28);}
+.bgRightToolAllPage_toolnew pre{border:0px!important;background-color:inherit!important;font-size:inherit!important;font-family:inherit!important;}
+.bgRightToolAllPage_toolnew #tbl_ketquagieo{background-image:linear-gradient(to right,rgba(8,8,8,0.36) 50%,rgba(5,47,20,0.08) 90%);margin:0 auto;width:50%;border:1px solid rgba(133,28,28,0.44);border-radius:10px;padding:15px;line-height:25px;}
+.bgRightToolAllPage_toolnew .lbl_loaixam{font-size:30px;font-family:cursive;font-style:italic;padding-bottom:12px;line-height:50px;}
+.bgRightToolAllPage_toolnew .text_justify{text-align:justify;}

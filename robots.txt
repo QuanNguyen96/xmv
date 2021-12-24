@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow : /admin
+Disallow : https://xemvanmenh.net/xem-boi-ten-no-index.html
+Allow: https://xemvanmenh.net/sitemap.xml
+User-agent: AhrefsBot
+Disallow: /

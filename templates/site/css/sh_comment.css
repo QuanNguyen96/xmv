@@ -1,0 +1,216 @@
+/** Application form and chatbox **/
+.appComment{ width: 100%;margin-top: 10px;padding: 10px; }
+.appComment .headerComment{ width: 100%;margin-bottom: 15px;border-radius: 4px;border: 1px solid #dadada;margin-bottom: 15px; }
+.appComment .headerComment .topForm{  }
+.appComment .title_cmt{ display: block;clear: both;margin-bottom: 10px;font-size: 20px;color: #333; }
+.appComment .headerComment form{ margin-bottom: 0px; }
+.appComment .headerComment .textarea{ width: 100%;overflow-y: visible;border: none;border-bottom: 1px solid #dadada;border-radius: 4px 4px 0 0;padding: 10px;box-sizing: border-box;line-height: 20px;background: #fff;min-height: 100px !important;font-size: 14px;color: #333;outline: none; }
+.appComment .headerComment .centerForm{ padding: 5px; }
+.appComment .headerComment .qd{ border: none;color: #4a90e2;padding-top: 6px;box-sizing: border-box;height: 30px;display: inline-block;text-decoration: none; }
+.appComment .headerComment .motionsend{ float: left; }
+.appComment .headerComment .motionsend a{ padding: 0 12px 0 5px;font-size: 14px;line-height: 20px; }
+.appComment .headerComment .cmt_right{ float: right; }
+.appComment .headerComment .cmt_right .btnSend{ padding: 0 12px 0 5px;font-size: 14px;padding: 5px 25px;font-size: 14px;color: #fff;text-transform: uppercase;border: 1px solid #288ad6;border-radius: 4px;background: #288ad6;margin: 0;display: inline-block;width: auto;line-height: 25px; }
+.appComment .headerComment .bottomForm{ padding: 5px; }
+.appComment .headerComment .bottomForm .midcmt{  }
+.appComment .headerComment .bottomForm .totalcomment{ padding: 12px 0 10px;font-size: 16px;color: #333;overflow: hidden;font-weight: bold;text-transform: capitalize; }
+
+.appComment{  }
+.appComment .bodyComment .media{ margin-top: 8px; }
+.appComment .bodyComment{ background: #fff;margin: 20px 0;border-top: 1px solid #dadada;padding-top: 20px;font-size: 14px; }
+.appComment .bodyComment .media-heading{ font-size: 16px; }
+.appComment .bodyComment .cpnAns{ height: 34px;margin: -5px 10px 0 0;font-size: 14px;color: #333;line-height: 24px; }
+.appComment .bodyComment .cpnAns .respondent{ padding: 5px 10px 0 0;font-size: 13px;color: #288ad9; }
+.appComment .bodyComment .cpnAns .time{ padding: 5px 0;font-size: 13px;color: #999;position: relative; }
+.appComment .bodyComment .cpnAns .time:before{ content: '•';color: #999;font-size: 14px;margin-right: 5px; }
+
+/** Pagination type span **/
+.wrap_comment .pagcomment{ display: block;padding: 0;overflow: hidden;margin: 10px auto;clear: both; }
+.wrap_comment .pagcomment span.active{ float: left;padding: 4px 10px;background: #ccc;border-radius: 3px;text-align: center;color: #333;margin-right: 4px;font-size: 12px;clear: none !important;cursor: pointer; }
+.wrap_comment .pagcomment span{ float: left;padding: 4px 10px;background: #eee;border-radius: 3px;text-align: center;color: #333;margin-right: 4px;font-size: 12px;clear: none !important;cursor: pointer; }
+
+/** Popup **/
+.plugInCommentPopup{ display: none; }
+.plugInCommentPopup .ajaxcomment{ overflow: hidden;position: fixed;left: 0;right: 0;bottom: 0;height: 100vh;background: rgba(0,0,0,.5);z-index: 9; }
+.plugInCommentPopup .ajaxcomment #loadcomment{  }
+.plugInCommentPopup .ajaxcomment #loadcomment{  }
+.plugInCommentPopup .ajaxcomment #loadcomment{  }
+.plugInCommentPopup .ajaxcomment .wrap_popup{ display: block;overflow: hidden;position: relative;width: 100%;max-width: 520px;margin: auto;background: #fff;margin-top: 5%;border-radius: 5px; }
+.plugInCommentPopup .titlebar{ display: block;overflow: hidden;padding: 10px;font-size: 17px;color: #333;border-bottom: 1px solid #f2f2f2;font-weight: bold; }
+.plugInCommentPopup .titlebar .back{ float: right;position: absolute;top: 10px;right: 5px;color: #920406;border: 1px solid #ccc;padding: 4px 9px 4px 9px;border-radius: 19px;font-size: 17px; }
+.plugInCommentPopup .forminfo{ display: block;overflow: hidden;background: #fff;padding: 10px; }
+.plugInCommentPopup .forminfo .cgd{ margin: 0 0 10px; }
+.plugInCommentPopup .forminfo input, .plugInCommentPopup .forminfo select{ display: block;padding: 8px;width: 100%;margin: 10px 0;height: 35px;border: 1px solid #dadada;background: #fff;border-radius: 4px;font-size: 14px;box-sizing: border-box;color: #333;outline: none; }
+.plugInCommentPopup .forminfo .lbMsgPopCmt{  }
+.plugInCommentPopup .forminfo button{ width: 100%;display: block;width: 100%;margin: 0 auto 10px;padding: 8px;height: 40px;font-size: 14px;color: #fff;text-transform: uppercase;border: 1px solid #4a90e2;border-radius: 4px;background: #4a90e2;cursor: pointer;line-height: 40px; }
+.plugInCommentPopup .forminfo input::placeholder, .plugInCommentPopup .forminfo select::placeholder{ color: #333; }
+
+.appComment .bodyComment .media-heading .qtv{ background: #f1c40f;border-radius: 2px;padding: 0 5px;margin: 4px 0 4px 10px;line-height: normal;border: 1px solid #f1c40f;font-size: 11px;color: #333;font-weight: normal;display: inline-block;margin: 5px 0 0 10px; }
+
+.hidden_order {
+    display: none;
+}
+
+/* Mau sac cua cac button */
+.btn_nice-1 {
+  background-color: #F27935;
+}
+.btn_nice-1 .round {
+  background-color: #f59965;
+}
+
+.btn_nice-2 {
+  background-color: #00AFD1;
+}
+.btn_nice-2 .round {
+  background-color: #00c4eb;
+}
+
+.btn_nice-3 {
+  background-color: #5A5B5E;
+}
+.btn_nice-3 .round {
+  background-color: #737478;
+}
+/* Thiết lập chung cho các button */
+
+a.btn_nice {
+  text-decoration: none;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  padding: 12px 53px 12px 23px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-weight: bold;
+  position: relative;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  display: inline-block;
+}
+a.btn_nice span {
+  position: relative;
+  z-index: 3;
+}
+a.btn_nice .round {
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  position: absolute;
+  right: 3px;
+  top: 3px;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  z-index: 2;
+}
+a.btn_nice .round i {
+  position: absolute;
+  top: 50%;
+  margin-top: -6px;
+  left: 50%;
+  margin-left: -4px;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.txt {
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+/* Mẫu button thu nhat */
+
+.type-1 a:hover {
+  padding-left: 48px;
+  padding-right: 28px;
+}
+.type-1 a:hover .round {
+  width: calc(100% - 6px);
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+}
+.type-1 a:hover .round i {
+  left: 12%;
+}
+
+/* Mẫu button thứ hai */
+
+.type-2 a:hover .round {
+  background: none;
+}
+.type-2 a:hover .round i {
+  left: 70%;
+}
+
+/* Mẫu button thứ ba */
+
+.type-3 .round {
+  background: transparent;
+}
+.type-3 a {
+  position: relative;
+  overflow: hidden;
+}
+.type-3 a.btn_nice-1:after {
+  background-color: #f59965;
+}
+.type-3 a.btn_nice-2:after {
+  background-color: #00c4eb;
+}
+.type-3 a.btn_nice-3:after {
+  background-color: #737478;
+}
+.type-3 a:after {
+  content: "";
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  width: 37px;
+  height: 38px;
+  position: absolute;
+  right: 3px;
+  top: 3px;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.type-3 a:hover:after {
+  right: 100%;
+  width: 50%;
+}
+.type-3 a:hover i {
+  margin-left: 4px;
+}
+
+/*Thats all. I hope you enjoyed it.
+Thanks :)*/
+/***************************************************************/
+/*************** Footer Bar Style ******************************/
+/***************************************************************/
+
+.footer-bar .article-link a, .footer-bar .article-link a:visited{
+    text-decoration: none;
+    color: #fff;
+}
+.site-link a, .site-link a:visited{
+    color: #888;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    float: right;
+    margin-right: 10%;
+    text-decoration: none;
+}
+.site-link a:hover{
+    color: #E62600;
+}
